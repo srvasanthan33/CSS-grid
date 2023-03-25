@@ -1,1 +1,33 @@
 /*  */
+* {
+    margin: 0;
+}
+body {
+    padding: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.main {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    border: 3px solid black;
+    list-style: none;
+}
+
+.header li {
+    padding-left: 10px;
+}
+
+.second-main {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-prim,
+.main-sec {
+    border: 1.8px solid black;
+}
